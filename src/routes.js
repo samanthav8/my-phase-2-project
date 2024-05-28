@@ -1,20 +1,24 @@
-import Home from "./Home";
-import Records from "./Records";
-import RecordForm from "./RecordForm";
+import Home from "./components/Home";
+import Records from "./components/Records";
+import RecordForm from "./components/RecordForm";
+import ErrorPage from "./components/ErrorPage";
 
 
 const routes = [
     {
         path:"/",
         element: <Home />,
+        errorElement: <ErrorPage />
     },
     {
         path:"/records",
-        element: <Records />
+        element: <Records />,
+        errorElement: <ErrorPage />
     },
     {
         path: "/newrecordform",
-        element: <RecordForm />
+        element: <RecordForm />,
+        errorElement: <ErrorPage />
     }
 ]
 

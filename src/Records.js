@@ -8,14 +8,13 @@ const Records = () => {
   useEffect(() => {
     fetch('http://localhost:3001/myrecords')
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => setRecords(data))
   })
 
 
   return (
     <div>
       <h1>MY RECORD COLLECTION</h1>
-      <NavBar/>
     </div>
   )
 }

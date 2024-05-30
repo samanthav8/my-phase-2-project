@@ -11,20 +11,26 @@ import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />
-  },
-  {
-    path: "/records",
-    element: <Records />
-  },
-  {
-    path: "/newrecordform",
-    element: <RecordForm />
-  },
-  {
-    path: "/record",
-    element: <RecordInfo />
+    path:"/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/records",
+        element: <Records />
+      },
+      {
+        path: "/newrecordform",
+        element: <RecordForm />
+      },
+      {
+        path: "/record",
+        element: <RecordInfo />
+      }
+    ]
   }
 ])
 

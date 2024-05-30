@@ -5,7 +5,6 @@ const RecordForm = () => {
   return (
     <div>
       <h1>NEW RECORD FORM</h1>
-      <NavBar />
     </div>
   )
 }

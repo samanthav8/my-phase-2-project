@@ -1,9 +1,11 @@
 {
-    "myrecords": {
-        "id": 1,
-        "name": "Desire, I Want to Turn Into You",
-        "artist": "Caroline Polachek",
-        "cover": "https://media.pitchfork.com/photos/638e25b9050dcbdc83fd7926/master/w_1280%2Cc_limit/Caroline-Polachek.jpg",
-        "genre": "Pop"
-      }
+  "myrecords": [
+    {
+      "id": 1,
+      "name": "Desire, I Want to Turn Into You",
+      "artist": "Caroline Polachek",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/f/f3/Caroline_Polachek_-_Desire%2C_I_Want_to_Turn_Into_You.png",
+      "genre": "Pop"
+    }
+  ]
 }

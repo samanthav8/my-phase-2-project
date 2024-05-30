@@ -5,7 +5,10 @@ const RecordCard = ({record}) => {
   return (
     <div>
       <article>
-        <h2>record name</h2>
+        <img src={record.cover} alt={record.name} />
+        <h1>{record.name}</h1>
+        <p>{record.artist}</p>
+        <p>{record.genre}</p>
         <Link to="/record">More Info</Link>
       </article>
     </div>

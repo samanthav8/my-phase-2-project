@@ -6,6 +6,7 @@ import App from './App';
 import Home from './Home'
 import Records from './Records'
 import RecordForm from './RecordForm'
+import RecordInfo from './RecordInfo';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/newrecordform",
     element: <RecordForm />
+  },
+  {
+    path: "/record",
+    element: <RecordInfo />
   }
 ])
 

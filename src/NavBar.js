@@ -21,7 +21,7 @@ const NavBar = () => {
             to="/newrecordform"
             className="nav-link"
         >
-            Add A Record
+            Add A New Record
         </NavLink>
       </nav>
     </div>

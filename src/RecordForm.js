@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 const RecordForm = () => {
   return (
     <div>
-      <h1>Record Form</h1>
+      <h1>NEW RECORD FORM</h1>
       <NavBar />
     </div>
   )

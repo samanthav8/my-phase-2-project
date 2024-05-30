@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 const Home = () => {
   return (
     <div>
-      <h1>The Home Page</h1>
+      <h1>RECORD COLLECTOR</h1>
       <NavBar />
     </div>
   )

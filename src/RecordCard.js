@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const RecordCard = ({ record }) => {
+  console.log(record)
   return (
     <div>
       <img src={record.cover} alt={record.title} />

@@ -1,15 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { useOutletContext } from "react-router-dom";
 import RecordCard from './RecordCard';
 
 const Records = () => {
-  const [records, setRecords] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:3001/myrecords')
-      .then(res => res.json())
-      .then(data => setRecords(data));
-  }, [])
-
+  const records = useOutletContext();
   return (
     <div>
       <h1>MY RECORD COLLECTION</h1>

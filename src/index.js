@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <RecordForm />
       },
       {
-        path: "/record",
+        path: "/records/:id",
         element: <RecordInfo />
       }
     ]

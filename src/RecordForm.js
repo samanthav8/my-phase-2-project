@@ -8,16 +8,49 @@ const RecordForm = () => {
   const [artist, setArtist] = useState('');
   const [genre, setGenre] = useState('');
 
+  function handleTitleChange(e){
+    setTitle(e.target.value)
+  }
+
+  function handleCoverChange(e){
+    setCover(e.target.value)
+  }
+
+  function handleArtistChange(e){
+    setArtist(e.target.value)
+  }
+
+  function handleGenreChange(e){
+    setGenre(e.target.value)
+  }
+
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const newRecord = { title, cover, artist, genre}
+    fetch("http://localhost:3001/myrecords", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newRecord),
+    })
+    .then((r) => r.json())
+    .then((newRecord) => console.log(newRecord))
+  }
   return (
     <div>
       <h1>NEW RECORD FORM</h1>
-      <form>
-        <input type="text" value={title} placeholder='Title' />
+      <form onSubmit={handleSubmit}>
+        <input type="text" value={title} placeholder='Title'  onChange={handleTitleChange}/>
         <br />
-        <input type="text" value={cover} placeholder='Cover Link' />
+        <input type="text" value={cover} placeholder='Cover Link' onChange={handleCoverChange}/>
         <br />
-        <input type='text' value={artist} placeholder='Artist Name' />
+        <input type='text' value={artist} placeholder='Artist Name' onChange={handleArtistChange}/>
         <br />
+        <input type='text' value={genre} placeholder='Genre' onChange={handleGenreChange}/>
+        <br />
+        <button type="submit">Add Record</button>
       </form>
     </div>
   )

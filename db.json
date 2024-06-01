@@ -1,10 +1,17 @@
 {
   "myrecords": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Desire, I Want to Turn Into You",
       "artist": "Caroline Polachek",
       "cover": "https://upload.wikimedia.org/wikipedia/en/f/f3/Caroline_Polachek_-_Desire%2C_I_Want_to_Turn_Into_You.png",
+      "genre": "Pop"
+    },
+    {
+      "id": "16b9",
+      "title": "Eternal Sunshine",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Ariana_Grande_-_Eternal_Sunshine.png",
+      "artist": "Ariana Grande",
       "genre": "Pop"
     }
   ]

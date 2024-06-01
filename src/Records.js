@@ -7,7 +7,7 @@ const Records = () => {
   return (
     <div>
       <h1>MY RECORD COLLECTION</h1>
-      <div>
+      <div className='record-container'>
         {records.length > 0 ? 
           (records.map(record => (<RecordCard key={record.id} record={record} />))) : (<p>Your Record Collection is empty! Click add a new record to start your collection!</p>)}
       </div>

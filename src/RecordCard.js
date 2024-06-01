@@ -5,11 +5,9 @@ const RecordCard = ({ record }) => {
   console.log('RecordCard record:', record); // Add this for debugging
 
   return (
-    <div>
+    <div className='record-card'>
       <img src={record.cover} alt={record.name} />
-      <h1>{record.name}</h1>
-      <p>{record.artist}</p>
-      <p>{record.genre}</p>
+      <h1>{record.title}</h1>
       <Link to={`/records/${record.id}`}>View Details</Link>
     </div>
   );

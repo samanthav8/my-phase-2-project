@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import RecordCard from './RecordCard';
 
 const Records = () => {
-  const records = useOutletContext();
+  const {records} = useOutletContext();
   return (
     <div>
       <h1>MY RECORD COLLECTION</h1>

@@ -12,10 +12,14 @@ function App() {
       .then(data => setRecords(data));
   }, [])
 
+  const addRecord = (newRecord) => {
+    setRecords([...records, newRecord]);
+  };
+
   return (
     <div className="App">
       <NavBar />
-      <Outlet context={records}/>
+      <Outlet context={{addRecord, records}}/>
     </div>
   );
 }

@@ -7,6 +7,7 @@ const RecordForm = () => {
   const [cover, setCover] = useState('');
   const [artist, setArtist] = useState('');
   const [genre, setGenre] = useState('');
+  const { addRecord } = useOutletContext();
 
   function handleTitleChange(e){
     setTitle(e.target.value)
@@ -36,7 +37,7 @@ const RecordForm = () => {
       body: JSON.stringify(newRecord),
     })
     .then((r) => r.json())
-    .then((newRecord) => console.log(newRecord))
+    .then((newRecord) => addRecord(newRecord))
   }
   return (
     <div>

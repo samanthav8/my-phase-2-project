@@ -1,4 +1,37 @@
-/* Page Styling */
+/*NavBar*/
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fffdd0; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px 0px;
+}
+
+
+.nav-link {
+  color: #4b2e2e; 
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+
+.nav-link:hover {
+  background-color: #fbdb94; 
+  color: #4b2e2e; 
+}
+
+
+.active {
+  color: #fffdd0; 
+  background-color: #4b2e2e; 
+}
+
+/* Body + Headers*/
 body {
   background-color: #fafafa;
   color: #4b2e2e;
@@ -8,7 +41,7 @@ h1 {
   text-align: center;
 }
 
-/*Home Styling*/
+/*Home*/
 .banner-container {
   text-align: center;
   margin-top: 20px;
@@ -20,7 +53,7 @@ h1 {
   height: auto; 
 }
 
-/* Form Styling */
+/*Form*/
 form {
   display: flex;
   flex-direction: column;
@@ -35,7 +68,6 @@ input {
   border-radius: 5px;
 }
 
-
 button {
   background-color: #4b2e2e;
   color: #fffdd0;
@@ -49,7 +81,7 @@ button:hover {
   color: #4b2e2e;
 }
 
-/* Record Card Container */
+/*Record Card Container*/
 .record-container {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +90,7 @@ button:hover {
   gap: 20px;
   padding: 20px;
 }
-/* Record Card Styling */
+/*Record Card*/
 .record-card {
   width: 350px;
   height: 450px;
@@ -99,4 +131,30 @@ button:hover {
   color: #fbdb94;
 }
 
+/* Record Info */
+.record-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffdd0;
+  border: 2px solid #4b2e2e;
+  margin: 20px;
+}
 
+.record-info-container h1 {
+  font-size: 60px;
+  color: #4b2e2e;
+  margin-bottom: 20px;
+}
+
+.record-info-container p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4b2e2e;
+  margin: 10px 0;
+}
+
+.record-info-container img {
+  width: 450px;
+  margin-top: 20px;
+}

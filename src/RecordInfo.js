@@ -12,11 +12,11 @@ const RecordInfo = () => {
   }
 
   return (
-    <div>
+    <div className="record-info-container">
       <h1>{record.title}</h1>
+      <img src={record.cover} alt={record.name} />
       <p>Artist: {record.artist}</p>
       <p>Genre: {record.genre}</p>
-      <img src={record.cover} alt={record.name} />
     </div>
   );
 };

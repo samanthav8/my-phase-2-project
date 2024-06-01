@@ -13,6 +13,13 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Ariana_Grande_-_Eternal_Sunshine.png",
       "artist": "Ariana Grande",
       "genre": "Pop"
+    },
+    {
+      "id": "aa96",
+      "title": "Did you know that there's a tunnel under Ocean Blvd",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/4f/Lana_Del_Rey_-_Did_You_Know_That_There%27s_a_Tunnel_Under_Ocean_Blvd.png",
+      "artist": "Lana Del Rey",
+      "genre": "Pop"
     }
   ]
 }

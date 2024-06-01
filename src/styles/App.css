@@ -8,6 +8,18 @@ h1 {
   text-align: center;
 }
 
+/*Home Styling*/
+.banner-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner-img {
+  display: inline-block;
+  max-width: 100%; 
+  height: auto; 
+}
+
 /* Form Styling */
 form {
   display: flex;
@@ -86,3 +98,5 @@ button:hover {
 .record-card a:hover {
   color: #fbdb94;
 }
+
+

@@ -2,42 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import App from './App';
-import Home from './Home'
-import Records from './Records'
-import RecordForm from './RecordForm'
-import RecordInfo from './RecordInfo';
-import ErrorPage from './ErrorPage'
+import routes from './routes';
 import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
-  {
-    path:"/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: "/records",
-        element: <Records />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: "/newrecordform",
-        element: <RecordForm />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: "/records/:id",
-        element: <RecordInfo />,
-        errorElement: <ErrorPage />
-      }
-    ]
-  }
-])
+const router = createBrowserRouter(routes)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);

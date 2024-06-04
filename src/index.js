@@ -7,6 +7,7 @@ import Home from './Home'
 import Records from './Records'
 import RecordForm from './RecordForm'
 import RecordInfo from './RecordInfo';
+import ErrorPage from './ErrorPage'
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -16,19 +17,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Home />,
+        errorElement: <ErrorPage />
       },
       {
         path: "/records",
-        element: <Records />
+        element: <Records />,
+        errorElement: <ErrorPage />
       },
       {
         path: "/newrecordform",
-        element: <RecordForm />
+        element: <RecordForm />,
+        errorElement: <ErrorPage />
       },
       {
         path: "/records/:id",
-        element: <RecordInfo />
+        element: <RecordInfo />,
+        errorElement: <ErrorPage />
       }
     ]
   }

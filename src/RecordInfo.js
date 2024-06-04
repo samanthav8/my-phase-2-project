@@ -7,9 +7,6 @@ const RecordInfo = () => {
 
   const record = records.find(record => record.id === id); 
 
-  if (!record) {
-    return <h1>Loading...</h1>;
-  }
 
   return (
     <div className="record-info-container">

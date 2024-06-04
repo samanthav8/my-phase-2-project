@@ -37,9 +37,10 @@ body {
   color: #4b2e2e;
 }
 
-h1 {
+h1, p {
   text-align: center;
 }
+
 
 /*Home*/
 .banner-container {
@@ -49,7 +50,7 @@ h1 {
 
 .banner-img {
   display: inline-block;
-  max-width: 100%; 
+  width: 75%;
   height: auto; 
 }
 

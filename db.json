@@ -27,6 +27,13 @@
       "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfBGO-QCsMKBVnWBQwB6CSgntqnGOoWmeXaA&s",
       "artist": "The Marias",
       "genre": "Indie Pop"
+    },
+    {
+      "id": "990b",
+      "title": "Hit Me Hard and Soft",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/a/aa/Billie_Eilish_-_Hit_Me_Hard_and_Soft.png",
+      "artist": "Billie Eilish",
+      "genre": "Alt-Pop"
     }
   ]
 }

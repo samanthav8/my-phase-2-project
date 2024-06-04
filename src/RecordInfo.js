@@ -3,7 +3,7 @@ import { useParams, useOutletContext } from 'react-router-dom';
 
 const RecordInfo = () => {
   const { id } = useParams();
-  const records = useOutletContext();
+  const {records} = useOutletContext();
 
   const record = records.find(record => record.id === id); 
 

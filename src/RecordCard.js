@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const RecordCard = ({ record }) => {
-  console.log('RecordCard record:', record); // Add this for debugging
 
   return (
     <div className='record-card'>

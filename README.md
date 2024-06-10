@@ -15,3 +15,10 @@ This is a simple web application that allows users to view their record collecti
 2. Under the "Add a New Record" Tab, You will fill out the form to add the Title, Cover Link, Artist Name, and Genre and click "Add Record" to then see your Record appear under the "My Records"
 3. On "My Records" you can scroll through and see all the records that you have added. 
 4. Click on "View Details" on a Record Card to see more details about the record that you selected. 
+
+## Features
+
+-View your record collection
+-Add new records to your collection
+-View more details about your record
+

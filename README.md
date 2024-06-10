@@ -1,0 +1,3 @@
+# Record Collector
+
+This is a simple web application that allows users to view their record collection, and add new records to that collection. Users can see their records with their album cover and name under their "My Records" list. A user can click "View Details" to gather more information about their record such as the artist and the genre. Under the "Add A New Record" tab, a user can add to their list of records. 

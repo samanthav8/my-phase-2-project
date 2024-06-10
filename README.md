@@ -22,3 +22,7 @@ This is a simple web application that allows users to view their record collecti
 -Add new records to your collection
 -View more details about your record
 
+## Credits 
+
+-Photo for the homepage was taken from media.pitchfork.com
+-Photo for the album covers were taken from Wikipedia

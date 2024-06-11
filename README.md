@@ -7,7 +7,7 @@ This is a simple web application that allows users to view their record collecti
     git clone https://github.com/samanthav8/my-phase-2-project
 2. Run npm install in your terminal
 3. Run npm start in your terminal to get the app started
-4. Open a seperate terminal and run npm json-server --watch db.json --port 30001
+4. Open a seperate terminal and run json-server --watch db.json --port 30001
 
 ## Usage
 

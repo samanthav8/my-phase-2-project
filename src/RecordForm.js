@@ -28,7 +28,7 @@ const RecordForm = () => {
   function handleSubmit(e) {
     e.preventDefault();
     const newRecord = { title, cover, artist, genre}
-    fetch("http://localhost:3001/myrecords", {
+    fetch("http://localhost:30001/myrecords", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

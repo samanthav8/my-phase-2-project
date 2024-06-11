@@ -7,7 +7,7 @@ function App() {
   const [records, setRecords] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/myrecords')
+    fetch('http://localhost:30001/myrecords')
       .then(res => res.json())
       .then(data => setRecords(data));
   }, [])
